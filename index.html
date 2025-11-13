@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PB LEAP 2.0 - Learning Hub Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="header-title">PB LEAP 2.0</h1>
+            <p class="header-subtitle">Master hub for learning webpages</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <!-- Stats -->
+            <div class="stats-card">
+                <p class="stats-label">Total Links</p>
+                <p class="stats-value" id="totalLinks">0</p>
+            </div>
+
+            <!-- Links Grid -->
+            <div class="links-grid" id="linksGrid">
+                <!-- Cards will be inserted here by JavaScript -->
+            </div>
+
+            <!-- Empty State -->
+            <div class="empty-state" id="emptyState" style="display: none;">
+                <div class="empty-icon">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                        <polyline points="15 3 21 3 21 9"></polyline>
+                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                </div>
+                <h3 class="empty-title">No links available</h3>
+                <p class="empty-text">All links have been removed</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>PB LEAP 2.0 &copy; <span id="currentYear"></span> | Learning Hub Dashboard</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
