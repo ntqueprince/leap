@@ -3,7 +3,8 @@ const LINKS = [
   { name: "PB DNA", url: "https://ntqueprince.github.io/pbdna/" },
   { name: "All ABPB", url: "https://ntqueprince.github.io/allabpb/" },
   { name: "Operational Excellence", url: "https://ntqueprince.github.io/Operational-Excellence/" },
-  { name: "Define-Analyze", url: "https://ntqueprince.github.io/Define-Analyze/" }
+  { name: "Define-Analyze", url: "https://ntqueprince.github.io/Define-Analyze/" },
+  { name: "excel", url: "https://ntqueprince.github.io/leap.excel/" }
 ];
 
 // State
